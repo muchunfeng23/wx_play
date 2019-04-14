@@ -1,0 +1,23 @@
+<view>
+  <view class="titleDesc">
+    tip:近7个交易日龙虎榜净流入数据>3000万活跃概念排行。只代表活跃性，不代表选股。
+  </view>
+  <scroll-view scroll-y style='margin-top:10px;height:180px;margin-bottom:30px'>
+    <view bindtap="clickConcept" wx:for="{{sortShareCodes}}" wx:for-index="key" data-nowConcept="{{item}}" data-nowIndex="{{key}}" class="{{selectStatus[key]}}">
+      {{item}}
+    </view>
+  </scroll-view>
+
+  <view wx:for="{{nowSelectedStocks}}" wx:for-index="key"  class="detailShow">
+    <view>
+      {{item.shareName}} 龙虎榜净流入{{item.sumAmount}}万元
+    </view>
+    <view wx:for="{{item.everydaylhbData}}" wx:for-item="key2">
+      {{key2}}万元
+    </view>
+    【全部概念：{{item.plates}}】
+  </view>
+
+
+</view>
+

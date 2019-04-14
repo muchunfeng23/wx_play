@@ -1,0 +1,17 @@
+<view class="container">
+  <form bindsubmit="formSubmit">
+    <view class="inputLine">
+      <input name="n_name" bindinput="cNameInput" placeholder="姓名" value="{{cName}}"/>
+    </view>
+    <view class="inputLine">
+      <input class="inputContent" bindinput="cIdCardInput" name="n_idCard" placeholder="身份证" value="{{cIdCard}}"/>
+    </view>
+    <view class="inputLine">
+      <input name="n_telephone" bindinput="cTelephoneInput" placeholder="电话号码" value="{{cTelephone}}"/>
+    </view>
+    <view>
+      <button form-type="submit" style='width:40%;margin-top:100rpx;margin-right:30rpx'>提交</button>
+    </view>
+  </form>
+  
+</view>

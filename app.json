@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/useradd/useradd",
+    "pages/stock/stock",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "沐风小舍",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/nanhang.png",
+        "iconPath": "images/nanhang.png",
+        "pagePath": "pages/useradd/useradd",
+        "text": "南航录入系统"
+      },
+      {
+        "selectedIconPath": "images/k-line.png",
+        "iconPath": "images/k-line.png",
+        "pagePath": "pages/stock/stock",
+        "text": "龙虎榜数据"
+      },
+      {
+        "selectedIconPath": "images/k-line.png",
+        "iconPath": "images/k-line.png",
+        "pagePath": "pages/stock/stock",
+        "text": "大资金板块"
+      }
+    ]
+  }
+}
