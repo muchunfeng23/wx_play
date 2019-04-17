@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/useradd/useradd",
+    "pages/plates/plates",
     "pages/stock/stock",
-    "pages/logs/logs"
+    "pages/onedaylonghu/onedaylonghu",
+    "pages/jiuyinzhenjing/jiuyinzhenjing"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,22 +17,28 @@
     "borderStyle": "black",
     "list": [
       {
-        "selectedIconPath": "images/nanhang.png",
-        "iconPath": "images/nanhang.png",
-        "pagePath": "pages/useradd/useradd",
-        "text": "南航录入系统"
-      },
-      {
         "selectedIconPath": "images/k-line.png",
         "iconPath": "images/k-line.png",
-        "pagePath": "pages/stock/stock",
-        "text": "龙虎榜数据"
-      },
-      {
-        "selectedIconPath": "images/k-line.png",
-        "iconPath": "images/k-line.png",
-        "pagePath": "pages/stock/stock",
+        "pagePath": "pages/plates/plates",
         "text": "大资金板块"
+      },
+      {
+        "selectedIconPath": "images/k-line.png",
+        "iconPath": "images/k-line.png",
+        "pagePath": "pages/stock/stock",
+        "text": "7日龙虎榜数据"
+      },
+      {
+        "selectedIconPath": "images/k-line.png",
+        "iconPath": "images/k-line.png",
+        "pagePath": "pages/onedaylonghu/onedaylonghu",
+        "text": "1日龙虎榜数据"
+      }, 
+      {
+        "selectedIconPath": "images/just_do_it.png",
+        "iconPath": "images/just_do_it.png",
+        "pagePath": "pages/jiuyinzhenjing/jiuyinzhenjing",
+        "text": "九阴真经"
       }
     ]
   }
