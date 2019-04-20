@@ -1,0 +1,7 @@
+<!--pages/jiuyinzhenjing/jiuyinzhenjing.wxml-->
+<view>
+  <view wx:for="{{tips}}" wx:key="key" class="showText">
+    {{item}}
+  </view>
+</view>
+

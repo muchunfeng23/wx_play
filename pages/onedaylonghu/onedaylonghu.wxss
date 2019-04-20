@@ -1,0 +1,40 @@
+/* pages/stock/stock.wxss */
+.pickPlus{
+  border: 5px solid #AABBCC;
+}
+.titleDesc{
+  border: 1px solid rgb(233, 118, 25);
+  border-radius: 8px;
+  margin: 5px 5px;
+  padding: 5px;
+  background: rgb(233, 118, 25);
+}
+.labelNoSelect{
+  float: left;
+  border: 1px solid rgb(247, 122, 122);
+  border-radius: 8px;
+  margin: 5px 5px;
+  padding: 5px;
+  background: rgb(245, 188, 188);
+}
+.labelSelect{
+  float: left;
+  border: 1px solid rgb(229, 176, 245);
+  border-radius: 8px;
+  margin: 5px 5px;
+  padding: 5px;
+  background: rgb(229, 176, 245);
+}
+
+.detailShowBigCircle{
+  margin-top:8px;
+  padding:3px;
+}
+
+.detailShow{
+  margin-top:13px;
+  border: 1px solid rgb(229, 176, 245);
+  border-radius: 8px;
+  padding: 5px;
+  /* background: rgb(224, 214, 214); */
+}
